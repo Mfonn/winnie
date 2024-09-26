@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Winnie</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="navbar-logo">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/wwf-logo.png" alt="Logo">
+                </div>
+
+                <div class="navbar-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="clients.html">Blog</a></li>
+                        <!-- <li><a href="hangout.html">Hangout</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  
+    <div class="wrapper">
+        <div class="page-header section-dark" style="background-image: url('http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg')">
+            <div class="filter"></div>
+    		<div class="content-center">
+    			<div class="container">
+    				<div class="title-brand">
+    					<h1 class="presentation-title kaushan-script-regular">Talk to Winnie</h1>
+                        
+    				<a href="about.html" class="myButton">Click</a>
+    					<div class="fog-low">
+    						<img src="http://demos.creative-tim.com/paper-kit-2/assets/img/fog-low.png" alt="">
+    					</div>
+    					<div class="fog-low right">
+    						<img src="http://demos.creative-tim.com/paper-kit-2/assets/img/fog-low.png" alt="">
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+            <div class="moving-clouds" style="background-image: url('http://demos.creative-tim.com/paper-kit-2/assets/img/clouds.png'); ">
+
+            </div>
+    	</div>
+  </div>
+  <script>
+    function toggleMenu() {
+        const navbarNav = document.querySelector('.navbar-nav');
+        navbarNav.classList.toggle('active');
+    }
+</script>
+</body>
+
+</html>

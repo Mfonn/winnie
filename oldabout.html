@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Winnie</title>
+    <link rel="stylesheet" href="about.css">
+    <script src="about.js"></script>
+</head>
+<body>
+    
+    <header class="navbar">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="navbar-logo">
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/123024/wwf-logo.png" alt="Logo">
+                </div>
+
+                <div class="navbar-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="try.html">Blog</a></li>
+                        <!-- <li><a href="hangout.html">Hangout</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+      <section class="intro">
+          <!-- <h1>We Build Bespoke Software</h1> -->
+          <p>World-class team of experts to build out</p>
+      </section>
+
+      <section class="approach">
+          <h2>Our Approach</h2>
+          <p>We take the time to understand you, pay attention to what you want to create, who your target audience is, and analyze the data in your field to develop the perfect solution.</p>
+          <p>Our toolkit of solutions is optimized for modern innovation and beautiful functional design. With a wide array of life experiences, we bring a unique perspective to every project.</p>
+      </section>
+
+      <section class="engineering">
+          <h2>Engineering</h2>
+          <p>With Engineering, we build highly functional, innovative, and bug-free software for web, desktop, and mobile platforms.</p>
+          <p>Contact Us: Fuzzydreamsorg@gmail.com with your proposal and get a response in 24 hours</p>
+      </section>
+  </div>
+      
+      
+      
+      <script src="https://dl.dropbox.com/s/8c3ev6f5tpf6bj7/jquery-latest.min.js?"></script>
+      <script>
+        $(document).ready(function() {
+          $("#scroll").hide();
+          $("#btnToClickToShowScroll").click(function() {
+            $("#scroll").slideToggle('slow');
+          });
+        });
+
+        function toggleMenu() {
+        const navbarNav = document.querySelector('.navbar-nav');
+        navbarNav.classList.toggle('active');
+    }
+      
+      </script>
+      <script>
+        $(document).ready(function() {
+          $("#socmed").hide();
+          $("#btnToClickToShowSocmed").click(function() {
+            $("#socmed").slideToggle('slow');
+          });
+        });
+      
+      </script>
+      
+
+      
+      </div>
+      </main>
+      
+</body>
+</html>
